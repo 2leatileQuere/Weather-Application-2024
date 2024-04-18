@@ -1,7 +1,4 @@
 body {
-  background-image: url(https://coverr.co/videos/curvy-mountain-road-zcxbgh2lvg);
-  background-size: cover;
-
   background-color: #b60b52;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -10,6 +7,21 @@ body {
 
 a {
   color: #439eff;
+}
+
+.cont {
+  position: relative;
+  height: 85vh;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .weather-app {
